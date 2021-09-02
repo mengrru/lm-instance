@@ -1,0 +1,61 @@
+.main {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-repeat: repeat;
+    background-position-x: -5%;
+}
+.header {
+    background-image: url(./img/header.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    margin-bottom: -40px;
+    position: relative;
+    right: 2.5%;
+    z-index: 2;
+    height: 80px;
+    width: 105%;
+}
+.body {
+    background-color: rgba(255, 255, 255, .8);
+}
+.category-item button {
+    float: left;
+    color: #FDC200;
+}
+.selected-item {
+    box-shadow: inset 0px 0px 0px 5px #FFF18C !important;
+}
+.selected-category button {
+    background-color: #FFF18C;
+    color: #FDC200;
+}
+.download-btn {
+    background-color: #FFF18C;
+    border: 1px solid #eee;
+    color: #fff;
+}
+.download-btn::before {
+    content: "";
+    display: inline-block;
+    width: 20px;;
+    height: 22px;;
+    background-image: url(./img/flower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+}
+.download-btn::after {
+    content: "";
+    display: inline-block;
+    width: 20px;;
+    height: 22px;;
+    background-image: url(./img/flower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 3px;
+}
+.warning {
+    color: #FDC200;
+    font-size: .8em;
+}
